@@ -1,0 +1,16 @@
+/* Global reset for CRM app */
+
+* {
+  box-sizing: border-box;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f6f7f9; /* light CRM background */
+  color: #111827;           /* dark text */
+}
+
+#root {
+  min-height: 100vh;
+}
