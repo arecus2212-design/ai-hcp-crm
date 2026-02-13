@@ -130,36 +130,45 @@ cd ai-hcp-crm
 2️⃣ Backend Setup
 
 Create and activate virtual environment (optional):
-
+````bash
 python -m venv venv
+``````````
+````bash
 venv\Scripts\activate
-
+`````````````
 
 Install dependencies:
-
+```bash
 pip install -r requirements.txt
-
+```
 
 Create .env file inside backend/:
 
+```bash
 GROQ_API_KEY=your_groq_api_key
 DATABASE_URL=mysql+pymysql://user:password@localhost:3306/hcp_crm
-
+````````
 
 Run backend:
-
+````bash
 cd backend
 python -m uvicorn app.main:app --reload
-
+`````
 
 API docs available at:
 
 http://127.0.0.1:8000/docs
 
 3️⃣ Frontend Setup
+```bash
 cd frontend/hcp-crm-ui
+`````
+````bash
 npm install
+````
+```bash
 npm run dev
+````
 
 
 Frontend available at:
