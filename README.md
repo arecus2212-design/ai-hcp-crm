@@ -124,9 +124,10 @@ hcp-crm/
 
 ⚙️ Local Setup Instructions
 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/arecus2212-design/ai-hcp-crm.git
 cd ai-hcp-crm
-
+```
 2️⃣ Backend Setup
 
 Create and activate virtual environment (optional):
